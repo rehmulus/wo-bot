@@ -1,0 +1,19 @@
+{
+  "name": "wo-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "wo.js",
+  "scripts": {
+    "start": "node deploy-commands.js && node wo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^0.3.0",
+    "canvas": "^2.9.1",
+    "discord-api-types": "^0.30.0",
+    "discord.js": "^13.6.0",
+    "express": "^4.17.3"
+  }
+}
